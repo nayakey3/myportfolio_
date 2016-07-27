@@ -1,0 +1,79 @@
+/*
+ Theme Name:   _tk-naya
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     _tk-master 2
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+
+.site-title a {
+	color: #FFFFFF;
+
+			  }
+
+#masthead.site-header{
+	background-color: #009688;
+	text-align: center;
+	color: #B2DFDB;
+					 }
+
+
+.navbar-default {
+    background-color: #536DFE;
+    border-color: #8C9EFF;
+				}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: #B2DFDB;  /*Sets the text hover color on navbar*/
+																					   }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+ a:hover, .navbar-default .navbar-nav > .active > a:focus {
+color: white; /*BACKGROUND color for active*/
+background-color: #00838F;
+														  }
+
+  .navbar-default {
+    background-color: #006064;
+    border-color: #006064;
+				  }
+
+  .dropdown-menu > li > a:hover,
+   .dropdown-menu > li > a:focus {
+    color: #262626;
+   text-decoration: none;
+  background-color: #66CCFF;  /*change color of links in drop down here*/
+   								 }
+
+ .nav > li > a:hover,
+ .nav > li > a:focus {
+    text-decoration: none;
+    background-color: silver; /*Change rollover cell color here*/
+  	                  }
+
+
+  .navbar-default .navbar-nav > li > a {
+   color: white; /*Change active text color here*/
+    					               }
+
+
+
+
+
+
+
+
+
+
+
