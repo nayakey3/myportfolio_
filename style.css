@@ -12,8 +12,8 @@
  Text Domain:  twenty-fifteen-child
 */
 
-@import url(https://fonts.googleapis.com/css?family=Bree+Serif');
-@import url(https://fonts.googleapis.com/css?family=Open+Sans');
+@import url(https://fonts.googleapis.com/css?family=Rancho);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 
 
@@ -22,15 +22,19 @@
 
 			  }
 
+
+        .page-title a {
+          color: #212121;
+        }
+
 #masthead.site-header{
-	background-color: #009688;
+	background-color: #0097A7;
 	text-align: center;
 	color: #B2DFDB;
 					 }
 
-
 .navbar-default {
-    background-color: #536DFE;
+    background-color: #00BCD4;
     border-color: #8C9EFF;
 				}
 
@@ -45,8 +49,8 @@ background-color: #00838F;
 														  }
 
   .navbar-default {
-    background-color: #006064;
-    border-color: #006064;
+    background-color: #00BCD4;
+    border-color: #00BCD4;
 				  }
 
   .dropdown-menu > li > a:hover,
@@ -65,15 +69,43 @@ background-color: #00838F;
 
   .navbar-default .navbar-nav > li > a {
    color: white; /*Change active text color here*/
-    					               }
+    					                         }
+ 
+body {
+  font-family: 'Rancho', 'serif';
+     }
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 25px;
+}
 
 
 
+.jumbotron {
+  background-color: #00BCD4;
+  }
 
+.jumbotron p { 
+  color: #FFFFFF;
+}
 
-
-
-
-
+#sidebar {
+    float: left;
+    margin-left: 30px;
+    width: 218px;
+}
+#content {
+    float: right;
+    margin-right: 53px;
+    width: 650px;
+}
 
 
